@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing My Tailwind Semantic Website as a Beginner</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Tailwind Semantic Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-sans bg-gray-100 text-gray-800">
+<body class="font-sans bg-gray-900 text-gray-200">
 
-    <!-- Header -->
-    <header class="bg-blue-600 text-white p-4">
-        <nav class="container mx-auto flex justify-between items-center">
-            <h1 class="text-xl font-bold">My Website</h1>
-            <ul class="flex space-x-6">
-                <li><a href="#" class="hover:text-yellow-300">Portfolio</a></li>
-                <li><a href="#" class="hover:text-yellow-300">Blog</a></li>
-                <li><a href="#" class="hover:text-yellow-300">Projects</a></li>
-                <li><a href="#" class="hover:text-yellow-300">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Header -->
+  <header class="bg-gray-800 text-gray-200 p-4 shadow-sm">
+    <nav class="w-full px-4 lg:px-12 flex justify-between items-center max-w-screen-2xl mx-auto">
+      <h1 class="text-2xl md:text-3xl font-bold text-indigo-300">Wuthering Waves</h1>
+      <ul class="flex space-x-6 text-base font-medium">
+        <li><a href="#" class="hover:text-indigo-400 transition-colors duration-200">Home</a></li>
+        <li><a href="#" class="hover:text-indigo-400 transition-colors duration-200">Library</a></li>
+        <li><a href="#" class="hover:text-indigo-400 transition-colors duration-200">Saved Books</a></li>
+        <li><a href="#" class="hover:text-indigo-400 transition-colors duration-200">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Main Content -->
-    <main class="container mx-auto my-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <article class="bg-white p-4 rounded shadow">
-            <h2 class="text-lg font-bold mb-2">Article One</h2>
-            <p>Testing the Article 1</p>
-        </article>
-        <article class="bg-white p-4 rounded shadow">
-            <h2 class="text-lg font-bold mb-2">Article Two</h2>
-            <p>Testing the Article 2</p>
-        </article>
-        <article class="bg-white p-4 rounded shadow">
-            <h2 class="text-lg font-bold mb-2">Article Three</h2>
-            <p>Testing the Article 3</p>
-        </article>
-    </main>
+  <!-- Main Content -->
+  <main class="w-full px-4 lg:px-12 max-w-screen-2xl mx-auto my-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <article class="bg-gray-800 p-8 rounded-lg shadow hover:shadow-lg transition-shadow">
+      <h2 class="text-xl md:text-2xl font-semibold mb-3 text-indigo-300">What is Wuthering Waves?</h2>
+      <p class="text-sm md:text-base text-gray-400">
+        Wuthering Waves is a visually captivating open-world action RPG set in a world ravaged by a mysterious calamity known as the Lament. You awaken as the Rover — a silent, amnesiac protagonist drawn into a land teeming with the remnants of lost civilizations and dangerous anomalies. The game offers a beautifully decayed world to explore, rich with hidden lore, intense boss fights, and fluid, high-speed traversal. Players can engage in stylish combat while uncovering the forgotten truths of the world and their own identity.
+      </p>
+    </article>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white text-center p-4">
-        <p>&copy; 2025 My Website. All rights reserved.</p>
-    </footer>
+    <article class="bg-gray-800 p-8 rounded-lg shadow hover:shadow-lg transition-shadow">
+      <h2 class="text-xl md:text-2xl font-semibold mb-3 text-indigo-300">Featured Character: Rover</h2>
+      <p class="text-sm md:text-base text-gray-400">
+        Rover is the central character in Wuthering Waves — a wanderer from beyond who holds the key to the world's salvation or its ruin. Unlike traditional heroes, Rover’s identity and power grow alongside the narrative, shaped by the choices players make and the memories they recover. With the ability to absorb and wield Resonator powers, Rover’s combat style is adaptive, offering dynamic synergy with the party. Their journey is personal, poetic, and intimately tied to the fate of the post-Lament world.
+      </p>
+    </article>
+
+    <article class="bg-gray-800 p-8 rounded-lg shadow hover:shadow-lg transition-shadow">
+      <h2 class="text-xl md:text-2xl font-semibold mb-3 text-indigo-300">Combat & Exploration</h2>
+      <p class="text-sm md:text-base text-gray-400">
+        Wuthering Waves delivers a deeply satisfying gameplay loop combining high-mobility exploration with skill-based combat. Players can double-jump, wall-run, glide, and grapple across vertical environments, giving them complete freedom to traverse a shattered world. Combat is fast, combo-driven, and cinematic — emphasizing precision, timing, and strategy. Each Resonator has unique elemental abilities and stylish animations, encouraging team synergy and creative tactics in battle. The world itself reacts to your presence, creating an immersive experience that evolves as you play.
+      </p>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 text-gray-400 text-center p-4 text-sm">
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
+
